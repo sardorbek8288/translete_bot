@@ -15,7 +15,7 @@ import java.net.http.HttpResponse;
 
 
 public class MyBot extends TelegramLongPollingBot {
-    private static final String API_TOKEN_GEMINI = "YOUR_API_TOKEN";
+    private static final String API_TOKEN_GEMINI = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyAKHEKvxheJo4y4kKmZIaIQXxqjjXGWKqA";
     private static final String START_PROMPT = "Tasavur qil sen translator assistentsan seni vazifang foydalanuvchi yuborgan xabarni" +
             " ozbek,ingliz,rus tillariga tarjima qilish. Agar foydalanuvchi /start bosa seni javobing shunday bo'lishi kerak:" +
             " {Assalomu aleykum men tarjimon botman. Men rus tili, ingliz tili va o'zbek tiliga tarjima qilib beraman.}" +
@@ -82,11 +82,11 @@ public class MyBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "@newjavatesta_bot";
+        return "t.me/translatertt_bot";
     }
 
     @Override
     public String getBotToken() {
-        return "7759815203:AAE87NNtFIggouGQ-_ePgBcrHQ_fmVY3yyA";
+        return "7702015507:AAEyVrdaaFG1CYlxUnvpz8ggKKrTheLyjaM";
     }
 }
